@@ -1,6 +1,16 @@
-h1 { color: #cc6600; }
+h1 { color: #cc6600; font-size: 30px; font-family: "Arial Black"; text-decoration: underline; }
+
+h3 { color: #e69a4e; font-size: 18px; }
+
+h4 { color: darkgreen; font-family: "Avantgarde";}
 
 footer { font-size: 8px; }
+
+p { color: #800404; font-size: 14px; font-family: sans-serif}
+
+li { color: navy; font-size: 15px; font-family: serif}
+
+img {float: left; }
 
 a:link { color: #3374FF; }
 a:hover { color: #0B9A9E; }
