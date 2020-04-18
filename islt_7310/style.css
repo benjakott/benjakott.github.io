@@ -1,11 +1,11 @@
 h1 { color: #cc6600; }
 
 footer { font-size: 8px;
-:link { color: #3374FF; }
-:hover { color: #0B9A9E; }
-:focus { color: #B833FF; }
-:visited { color: #6219F5; }
-:active { color: #1BB416; }
+    :link { color: #3374FF; }
+    :hover { color: #0B9A9E; }
+    :focus { color: #B833FF; }
+    :visited { color: #6219F5; }
+    :active { color: #1BB416; }
 }
 
 
