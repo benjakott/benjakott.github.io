@@ -1,8 +1,31 @@
+/*
+
+*****************************************************************************
+
+Title:  Benjamin Kotthoff's Resume
+
+Use:  Link's to Benjamin Kotthoff's Resume
+
+Author:  Benjamin Kotthoff
+
+School/Term:  University of Columbia - Missouri, Spring 2020
+
+Developed: April 17, 2020
+
+Tested:  April 19, 2020
+
+******************************************************************************
+*/
+
 h1 { color: #cc6600; font-size: 30px; font-family: "Arial Black"; text-decoration: underline; border-style: inset; border-color: deepskyblue }
+
+h2 { color: #309ef2; font-family: "Geneva"; font-size: 22px;}
 
 h3 { color: #e69a4e; font-size: 18px; border-width: medium; }
 
 h4 { color: darkgreen; font-family: "Avantgarde";}
+
+h5 { color: #c79648; font-family: "Geneva"; font-size: 18px;}
 
 footer { font-size: 8px; border: 3px solid navy; padding: 5px;}
 
@@ -14,6 +37,8 @@ body {background-color: #C6E9EA; margin: 15px;}
 
 img {float: left; position: sticky; border-spacing: inherit; margin: auto; margin-right: auto; padding-right: 5px; padding-left: 5px; padding-top: 7px; padding-bottom: 7px; border: 8px dashed green; }
 
+section {font-size: 15px; padding: 10px;}
+
 a:link { color: #3374FF; }
 a:hover { color: #0B9A9E; }
 a:focus { color: #B833FF; }
@@ -21,3 +46,5 @@ a:visited { color: #6219F5; }
 a:active { color: #1BB416; }
 
 a {text-decoration: blink;}
+
+section::first-letter {font-size: 110%; font-family: fantasy;  }
