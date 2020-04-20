@@ -51,7 +51,7 @@ nav>ul>li:hover>ul{
 display: block;
 }
 
-nav>ul>li :hover> {background-color: cadetblue; display: inline-block; }
+nav>ul>li :hover {background-color: cadetblue; display: inline-block; }
 
 nav>ul>li:hover {background-color: #6bfad7;}
 
