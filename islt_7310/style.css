@@ -12,7 +12,7 @@ School/Term:  University of Columbia - Missouri, Spring 2020
 
 Developed: April 17, 2020
 
-Tested:  April 19, 2020
+Tested:  May 15, 2020
 
 ******************************************************************************
 */
@@ -48,3 +48,47 @@ a:active { color: #1BB416; }
 a {text-decoration: blink;}
 
 section::first-letter {font-size: 110%; font-family: fantasy;  }
+
+.wrapper {overflow: auto;}
+
+#main {margin-left: 4px;}
+
+#footer {position: relative;}
+
+@media screen and (min-width: 350px) {
+    #main {float: left}
+}
+
+input[type=text], select, textarea {
+  width: 100%; 
+  padding: 12px;  
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical;
+  background-color: #f7fdff;
+}
+
+
+input[type=submit] {
+  background-color: #3b7ff5;
+  color: white;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+
+input[type=submit]:hover {
+  background-color: #0758e6;
+}
+
+.main {
+  border-radius: 8px;
+  background-color: lightsteelblue;
+  padding: 5px; 
+}
+

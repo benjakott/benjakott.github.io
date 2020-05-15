@@ -1,3 +1,14 @@
+<?php
+
+if($_POST["message"]) {
+
+mail("kotthoffcdbenjamin@gmail.com", "id=regarding",
+
+$_POST["id=body"]. "From: id=body");
+
+}
+
+?>
 <!DOCTYPE html>
 
     <html lang="en-US">
@@ -9,22 +20,22 @@
             <link rel="stylesheet" href="nav.css">
             <meta bane="viewport" content="width=device-width, initial-scale=1">
 
-            <title>Resume</title>
+            <title>Contact</title>
 <!--
 
 *****************************************************************************
 
-Title:  Benjamin Kotthoff's Resume
+Title:  Benjamin Kotthoff's Contact Form
 
-Use:  Link's to Benjamin Kotthoff's Resume
+Use:  Link's to Benjamin Kotthoff's Contact Form
 
 Author:  Benjamin Kotthoff
 
 School/Term:  University of Columbia - Missouri, Spring 2020
 
-Developed: April 17, 2020
+Developed: May 15, 2020
 
-Tested:  April 19, 2020
+Tested:  May 15, 2020
 
 ******************************************************************************
 
@@ -49,8 +60,34 @@ Tested:  April 19, 2020
                 <li> <p><a href= "#experience.html">Experience</a></p></li>
                 </ul>
             </nav>
+            
+            <div class="main">
+              <form method="post" action="contact.php">
+                  
 
-            <p><a href="https://benjakott.github.io/islt_7310/docs/kotthoffresume.pdf" style="color:darkred; text-align: center; font-size: 24px;">Resume</a></p>
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your First Name">
+
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your Last Name">
+
+                <label for="subject">Regarding</label>
+                <select id="regarding" name="regarding">
+                  <option value="business">Business</option>
+                  <option value="jobop">Job Oppertunity</option>
+                  <option value="other">Other</option>
+                </select>
+                  
+                  <label for="remail">Responding Email</label>
+                <input type="text" id="remail" name="respondemail" placeholder="Preferrd Email Contact">
+
+                <label for="message">Body</label>
+                <textarea id="body" name="body" placeholder="Please detail the information" style="height:200px"></textarea>
+
+                <input type="submit" value="Submit">
+
+              </form>
+            </div>
             
             <footer> Copyright of Benjamin Kotthoff. <a href="mailto:bckkvf@mail.missouri.edu">bckkvf@mail.missouri.edu</a></footer>
 
