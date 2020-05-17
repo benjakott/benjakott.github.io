@@ -19,13 +19,13 @@ Tested:  May 15, 2020
 
 h1 { color: #cc6600; font-size: 30px; font-family: "Arial Black"; text-decoration: underline; border-style: inset; border-color: deepskyblue }
 
-h2 { color: #309ef2; font-family: "Geneva"; font-size: 22px;}
+h2 { color: #309ef2; font-family: "Comfortaa"; font-size: 22px;}
 
 h3 { color: #e69a4e; font-size: 18px; border-width: medium; }
 
 h4 { color: darkgreen; font-family: "Avantgarde";}
 
-h5 { color: #c79648; font-family: "Geneva"; font-size: 18px;}
+h5 { color: #c79648; font-family: "Comfortaa"; font-size: 18px;}
 
 footer { font-size: 8px; border: 3px solid navy; padding: 5px; background-image: url(images/background.jpg)}
 
@@ -95,5 +95,20 @@ input[type=submit]:hover {
 
 #icon {position: static; margin-top: -11.7px;}
 
+font-family: 'Comfortaa', cursive;
 
+@media print {
+    .h1, 
+    .img, 
+    .p, 
+    .ul, 
+    .blockquote,
+    .footer,
+    #icon{display: none}
+    body {
+        font-family: serif;
+        color: black;
+    }
+    h1{font-family: "Comfortaa"}
+}
 
