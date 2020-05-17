@@ -39,6 +39,8 @@ img {float: left; position: sticky; border-spacing: inherit; margin: auto; margi
 
 section {font-size: 15px; padding: 10px;}
 
+blockquote { color: #EEEEEE}
+
 a:link { color: #3374FF; }
 a:hover { color: #0B9A9E; }
 a:focus { color: #B833FF; }
@@ -53,8 +55,10 @@ section::first-letter {font-size: 110%; font-family: fantasy;  }
 
 #main {margin-left: 4px;}
 
-#footer {position:absolute;
-bottom: 10px; background-image: url(images/background2.jpg)}
+#footer {
+  position:absolute;
+  bottom: 10px; background-image: url(images/background2.jpg)
+}
 
 @media screen and (min-width: 350px) {
     #main {float: left}
