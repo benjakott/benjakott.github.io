@@ -12,7 +12,7 @@ School/Term:  University of Columbia - Missouri, Spring 2020
 
 Developed: April 17, 2020
 
-Tested:  May 15, 2020
+Tested:  May 17, 2020
 
 ******************************************************************************
 */
@@ -93,9 +93,15 @@ input[type=submit]:hover {
   padding: 5px; 
 }
 
-#icon {position: static; margin-top: -11.7px;}
-
-font-family: 'Comfortaa', cursive;
+.icon {
+  position: static;
+  width: 18px;
+  float: none;
+  position: default;
+  padding: 0px 3px ;
+  transition: width 0.3s linear 0s;
+}
+.icon:hover { width: 25px; }
 
 @media print {
     .h1, 
