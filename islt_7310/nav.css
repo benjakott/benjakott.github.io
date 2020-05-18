@@ -43,24 +43,23 @@ color: darkblue;
 }
     
 nav ul>li ul {
-position: absolute;
+position:absolute;
 margin-left: -81px;
 margin-top: 10px;
-display: none;
-overflow:visible;
+display:none;
 top: 100%;
 width: 100%;
 }
 
 nav>ul>li:hover>ul{
-display: block;
+display:contents;
 }
 
 nav>ul>li :hover {background-color: cadetblue; display: inline-block; }
 
 nav>ul>li:hover {background-color: #6bfad7;}
 
-nav>ul>li>ul>li:hover {background-color: #6bfad7; opacity: 97%; position: absolute;}
+nav>ul>li>ul>li:hover {background-color: #6bfad7; opacity: 97%; }
 
 
 .nav {

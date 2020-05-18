@@ -62,32 +62,36 @@ Tested:  May 17, 2020
         </nav>
             
             <div class="main">
-              <form method="post" action="contact.php">
+              <form action=mailto:benjamincdkotthoff@gmail.com method="POST" enctype="multipart/form-data">
                   
 
                 <label for="fname">First Name</label>
-                <input type="text" id="fname" name="firstname" placeholder="Your First Name">
+                <input type="text" id="fname" name="firstname" placeholder="Your First Name" required>
 
                 <label for="lname">Last Name</label>
-                <input type="text" id="lname" name="lastname" placeholder="Your Last Name">
+                <input type="text" id="lname" name="lastname" placeholder="Your Last Name" required>
 
                 <label for="subject">Regarding</label>
-                <select id="regarding" name="regarding">
+                <select id="regarding" name="regarding" required>
                   <option value="business">Business</option>
                   <option value="jobop">Job Oppertunity</option>
                   <option value="other">Other</option>
                 </select>
                   
                   <label for="remail">Responding Email</label>
-                <input type="text" id="remail" name="respondemail" placeholder="Preferrd Email Contact">
-
+                <div>
+                <input type="email" id="remail" name="respondemail" placeholder="Prefered Email Contact" required>
+                </div>
+                <div>
                 <label for="message">Body</label>
-                <textarea id="body" name="body" placeholder="Please detail the information" style="height:200px"></textarea>
+                <textarea id="body" name="body" placeholder="Please detail the information" style="height:200px" required></textarea>
 
-                <input type="submit" value="Submit">
+                  <button type="submit" value="Submit">Submit</button>
+                </div>
 
-              </form>
-            </div>
+                </form>
+    </div>
+
             
             <footer id="Footer">
             
